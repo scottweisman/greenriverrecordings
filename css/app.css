@@ -1,29 +1,24 @@
-/* Artfully masterminded by ZURB  */
+html,body {
+	background: #f1f1f1;
+}
 
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: Shared Styles
-:: Page Name 1
-:: Page Name 2
-*/
+h2 {
+	text-align: center;
+}
 
+.header {
+  background: url(../img/main-studio.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
 
-/* -----------------------------------------
-   Shared Styles
------------------------------------------ */
+.centered-image {
+	text-align: center;
+}
 
-
-
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-
+ul {
+	list-style-type: none;
+}
