@@ -1,24 +1,94 @@
-html,body {
-	background: #f1f1f1;
+/* Green: 30be6f */
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'futura-pt', 'futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h2 {
-	text-align: center;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'futura-pt', 'futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
 }
 
-.header {
-  background: url(../img/main-studio.jpg) no-repeat center center fixed;
+h1 {font-size: 42px; line-height: 1.2em;}
+h2 {font-size: 24px; line-height: 1.2em;}
+
+#background {
+  background: url(../img/main-studio-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main-studio-background.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main-studio-background.jpg', sizingMethod='scale')";
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
-.centered-image {
-	text-align: center;
+#header {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 20px 0;
 }
 
-ul {
-	list-style-type: none;
+img.logo {
+  width: 360px;
+}
+
+a.brand {
+  line-height: 70px;
+}
+
+.navigation ul {
+  line-height: 70px;
+}
+
+.navigation ul li {
+  font-size: 18px;
+}
+
+#section1 {
+  margin: 140px 0;
+}
+
+
+.more_link {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -160px;
+  width: 320px;
+}
+
+.more_box {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -160px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.40);
+  padding: 20px 40px;
+}
+
+.more_box i {
+  position: relative;
+  top: 10px;
+}
+
+.about {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.about p {
+  text-align: left;
 }
