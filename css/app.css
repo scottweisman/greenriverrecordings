@@ -92,3 +92,37 @@ a.brand {
 .about p {
   text-align: left;
 }
+
+
+
+/* Media */
+
+@media (max-width: 979px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+/*@media (max-width: 480px) {
+
+  .top_iphone {
+    height: 60px;
+  }
+
+  .bottom_iphone {
+    height: 20px;
+  }
+
+  #section1 {
+   margin: 20px 0;
+ }*/
+}

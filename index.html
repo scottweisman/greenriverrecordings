@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=960" />
   <title>Green River Recordings</title>
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.css">
@@ -19,15 +19,15 @@
 <div id="background">
   <div id="header">
     <div class="row">
-      <div class="six columns left">
+      <div class="six columns left top_iphone">
         <a href="http://greenriverrecordings.com" class="brand">
           <img src="./img/my-green-river-logo.png" class="logo">
         </a>
       </div>
-      <div class="six columns navigation">
+      <div class="six columns navigation bottom_iphone">
         <ul class="inline-list right">
-          <li><a href="">About</a></li>
-          <li><a href="">Gear</a></li>
+  <!--         <li><a href="">About</a></li>
+          <li><a href="">Gear</a></li> -->
           <li><a href="">(763) 360-8761</a></li>
         </ul>
       </div>
@@ -37,16 +37,16 @@
 <div id="section1">
   <div class="row">
     <div class="tweleve columns">
-      <h1>A state of the art 3000 square foot<br>fully floated recording studio.</h1>
+      <h1 id="fit_h1">A state of the art 3000 square foot<br>fully floated recording studio.</h1>
       <h2>Located just outside of Minneapolis, MN</h2>
     </div>
   </div>
-  <a href="#" class="more_link">
+<!--   <a href="#" class="more_link">
     <div class="more_box">
       More About Us<br>
       <i class="foundicon-down-arrow"></i>
     </div>
-  </a>
+  </a> -->
 </div>
 
 
@@ -67,6 +67,13 @@
 
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+
+
+  // <script type="text/javascript">
+  //     $("#fit_h1").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
+  //     $("#fit_h2").fitText();
+  //   </script>
 
 </body>
 </html>
