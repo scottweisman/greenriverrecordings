@@ -1,7 +1,11 @@
 /* Green: 30be6f */
 
 body {
-  background: #000;
+  background: url(../img/main-studio-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #fff;
   font-family: 'futura-pt', 'futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -14,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {font-size: 42px; line-height: 1.2em;}
 h2 {font-size: 24px; line-height: 1.2em;}
 
-#background {
+/*#background {
   background: url(../img/main-studio-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,7 +29,7 @@ h2 {font-size: 24px; line-height: 1.2em;}
   position: fixed;
   width: 100%;
   height: 100%;
-}
+}*/
 
 #header {
   text-transform: uppercase;
@@ -53,6 +57,9 @@ a.brand {
   margin: 140px 0;
 }
 
+.studio_list {
+  list-style: none;
+}
 
 .more_link {
   position: absolute;

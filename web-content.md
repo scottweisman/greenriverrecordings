@@ -6,7 +6,7 @@ The studio-
 	fully floated, sound proofed from top to bottom
 	custom built acoustic treatments for versatile control of room ambiance
 	A plethora of vintage and cutting edge microphones, audio outboard gear, software and instruments
-	
+
 
 Services-
 	Voice over for radio, television and web
@@ -15,12 +15,12 @@ Services-
 	Mixing
 	Digital transfer/ archival
 	Music composition/ scoring
-	Location recording		
+	Location recording
 	Small run CD/DVD/Bluray  duplication
 	Green screen
 	Consultation
 	Video recording
-            
+
  
 
 Green River Recordings is a state of the art recording studio that regularly records bands of all musical styles and spots for radio, TV and the internet. The studio features a 16x17 control room, a spacious 31x21.5 tracking room, three isolation rooms including our vocal booth. The entire facility is "floated" for near perfect sound isolation and treated with custom built acoustics for versatile control of room ambiance.  Album production, mixing and digital recording with Pro-Tools and Ableton is enriched by a plethora of vintage and cutting edge microphones, audio outboard gear, software and instruments. Green River also offers music composition, consultation, digital transfer/archival services, film scoring, green screen, location recording, small run Cd/DVD/Blueray duplication and video recording.
@@ -41,7 +41,6 @@ Mac Pro Quad 4
 Pro Tools 10
 Melodyne Studio Bundle
 Waves plug ins
-Universal Audio UAD-2 OCTO Ultimate package
 Final Cut
 
 Monitor System
