@@ -2,4 +2,4 @@
 
 Start things up locally
 
-   jekyll serve -w
+    jekyll serve -w
