@@ -49,11 +49,9 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rake (10.3.1)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.4)
       ffi (>= 0.5.0)
-    rdiscount (2.1.7.1)
     redcarpet (3.1.1)
     safe_yaml (1.0.3)
     sass (3.3.7)
@@ -67,6 +65,3 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  rake
-  rdiscount
-  sass
