@@ -12,13 +12,10 @@
   <!-- Retina.js - Load first for faster HQ mobile images. -->
   <script src="js/plugins/retina/retina.min.js"></script>
   <!-- Font Awesome -->
-  <!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Default Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
-  <!-- Modern Style Fonts (Include these is you are using body.modern!) -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
   <!-- Plugin CSS -->
   <link href="css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
   <link href="css/plugins/jquery.fs.wallpaper.css" rel="stylesheet" type="text/css">
@@ -64,65 +61,24 @@
                 </div>
             </div>
             <div class="row text-center content-row">
+              {% for service in site.data.services1 %}
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-                    <div class="about-content">
-                        <i class="fa fa-laptop fa-4x"></i>
-                        <h3>Album production</h3>
-                        <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
-                    </div>
+                  <div class="about-content">
+                    <h3>{{service.name}}</h3>
+                    <p>{{service.description}}</p>
+                  </div>
                 </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                    <div class="about-content">
-                        <i class="fa fa-code fa-4x"></i>
-                        <h3>Voice-over for radio, television and web</h3>
-                        <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                    <div class="about-content">
-                        <i class="fa fa-camera-retro fa-4x"></i>
-                        <h3>Digital recording (Pro Tools and Ableton)</h3>
-                        <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                    <div class="about-content">
-                        <i class="fa fa-paint-brush fa-4x"></i>
-                        <h3>Small run CD/DVD/Bluray duplication</h3>
-                        <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
-                    </div>
-                </div>
+              {% endfor %}
             </div>
-
             <div class="row text-center content-row">
+              {% for service in site.data.services2 %}
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-                    <div class="about-content">
-                        <i class="fa fa-laptop fa-4x"></i>
-                        <h3>Digital transfer/archival</h3>
-                        <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
-                    </div>
+                  <div class="about-content">
+                    <h3>{{service.name}}</h3>
+                    <p>{{service.description}}</p>
+                  </div>
                 </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                    <div class="about-content">
-                        <i class="fa fa-code fa-4x"></i>
-                        <h3>Music composition/scoring</h3>
-                        <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                    <div class="about-content">
-                        <i class="fa fa-camera-retro fa-4x"></i>
-                        <h3>Location recording</h3>
-                        <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                    <div class="about-content">
-                        <i class="fa fa-paint-brush fa-4x"></i>
-                        <h3>Mixing</h3>
-                        <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
-                    </div>
-                </div>
+              {% endfor %}
             </div>
         </div>
     </section>
@@ -130,10 +86,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 wow fadeIn">
-                    <span class="quote">Good
-                        <span class="text-primary">design</span> is finding that perfect balance between the way something
-                    <span class="text-primary">looks</span> and how it
-                    <span class="text-primary">functions</span>.</span>
+                    <span class="quote">
+                      I always feel like there's something <span class="text-primary">magic</span> in recording studios. There's a reason <span class="text-primary">good music</span> continues to be made in them. It's just some <span class="text-primary">mojo element</span>.
+                    </span>
+                    <p>- Rick Rubin</p>
                     <hr class=" colored">
                     <a class="btn btn-outline-light page-scroll" href="#contact">Let's Find It</a>
                 </div>
@@ -149,25 +105,7 @@
                     <p>We have the highest-quality audio recording gear.</p>
                 </div>
             </div>
-            <div class="row content-row">
-              {% for gear in site.data.gear %}
-                  <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                      <div class="media">
-                          <div class="pull-left">
-                            <i class="fa fa-clipboard"></i>
-                          </div>
-                          <div class="media-body">
-                            <h3 class="media-heading">{{gear.category}}</h3>
-                            <ul>
-                              {% for equipment in gear.equipment %}
-                                <li>{{equipment}}</li>
-                              {% endfor %}
-                            </ul>
-                          </div>
-                      </div>
-                  </div>
-                {% endfor %}
-            </div>
+            {% include gear.html %}
         </div>
     </section>
     <section id="contact">
@@ -176,7 +114,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>Contact Us</h2>
                     <hr class="colored">
-                    <p>I'd love to hear about your next project! Send me a message and I will see if I can help.</p>
+                    <p>I'd love to work with you! Send me a message and I will see if I can help.</p>
                 </div>
             </div>
             <div class="row content-row">
