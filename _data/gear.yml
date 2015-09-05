@@ -37,14 +37,15 @@
     - ADA MP-1
     - CountryMan DI
     - Radial ReAmp/DI
-- category: Mics
-  equipment: Condensor Mics
+- category: Condensor Mics
+  equipment: 
     - (2) AKG 451 (matched Pair)
     - (2) Sure SM81
     - Audio Technica AT4050
     - (2) Beringer B1
     - (2) Gauge U8A
 - category: Dynamic Mics
+  equipment:
     - (6) Sure SM57
     - Sure SM58
     - (2) Senheiser MD 421
