@@ -37,18 +37,22 @@
     - ADA MP-1
     - CountryMan DI
     - Radial ReAmp/DI
-- category: Mics
-  equipment:
+- category: Condensor Mics
+  equipment: 
     - (2) AKG 451 (matched Pair)
     - (2) Sure SM81
     - Audio Technica AT4050
     - (2) Beringer B1
     - (2) Gauge U8A
+- category: Dynamic Mics
+  equipment:
     - (6) Sure SM57
     - Sure SM58
     - (2) Senheiser MD 421
     - AKG D112
     - Audix D6
+    - Electro Voice RE-15
+    - Electro Voice RE-16
     - Electro Voice RE-20
     - Electro Voice DO54
     - (2) Taylor
@@ -63,28 +67,27 @@
   equipment:
     - Cannon T2i
     - Mattews green screen (20x20')
-- category: Instruments
+    - DMX controlled lighting system
+- category: Keyboards
   equipment:
     - Hammond M3
     - Fender Rhodes
     - Upright Piano
     - Casio CTK-533
     - Roland SH-01
-    - Williams Pedal Steel
-    - Fender Jazz Bass
-    - Fender Stratocaster
-    - Vox Toranado
-    - Flying V
-    - Stella acoustic guitar
-    - Ovation acoustic guitar
+    - Korg Triton LE
+- category: Drums
+  equipment:
     - Tama Royal Star
     - Gretch Catilina Custom
-    - Marshal Cab
-    - Marimba
+    - Roland V drums
+    - various aux percussion
+- category: Samplers/Sequencers
+  equipment:
+    - MPC studio
+    - MPC 4000
     - Korg ES-1
     - Roland TR-707
-    - MPC 4000
-    - MPC Studio
 - category: Effects
   equipment:
     - Fender Phaser
