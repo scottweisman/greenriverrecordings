@@ -1,7 +1,4 @@
 - service:
-  name: Voice over for radio, television and web
-  description: Perfect vocal signal chain and super quick editing. Vocal booth accessible from control room.
-- service:
   name: Album production
   description: Making an EP or album? Time to get creative! Ask for a project rate and forget about the clock.
 - service:
@@ -10,3 +7,6 @@
 - service:
   name: Mixing
   description: Music, home recordings, video post production and just about anything else.
+- service:
+  name: Music Composition &amp; Scoring
+  description: We create original music perfectly suited for your project. From advertisement bed music to film scores to hip hop beats.

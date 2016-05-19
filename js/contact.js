@@ -10,7 +10,7 @@ $('#ajax-form').submit(function(){
     //and reset the form
     $('#contact-form-container').find('form')[0].reset();
     $('#contact-form-container').fadeOut(500, function() {
-      $('#contact-message').replaceWith('<p style="color:green;">Thank you for contacting us. We will get back to you as soon as possible.</p>');
+      $('#contact-message').replaceWith('<p style="color:green;">Thank you for contacting us, we will back to you within 24hrs. If you need something sooner, send us a text or give us a call!</p>');
     });
   });
   return false; //to stop the form from submitting

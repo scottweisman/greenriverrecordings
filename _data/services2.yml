@@ -1,9 +1,9 @@
 - service:
-  name: Digital transfer/ archival
-  description: Those old tapes wont last forever, preserve your precious audio from old mediums with the highest quality possible. Audio Restoration, Noise Reduction.
+  name: Voice over for radio, television and web
+  description: Perfect vocal signal chain and super quick editing. Vocal booth accessible from control room.
 - service:
-  name: Music composition/ scoring
-  description: We create original music perfectly suited for your project. From advertisement bed music to film scores to hip hop beats.
+  name: Digital transfers &amp; Archival
+  description: Those old tapes won&rsquo;t last forever, preserve your precious audio from old mediums with the highest quality possible. Audio Restoration, Noise Reduction.
 - service:
   name: Location recording
   description: Live shows, electronic news-gathering,  film, recitals etc.
