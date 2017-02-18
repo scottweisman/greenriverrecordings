@@ -6,7 +6,14 @@
   description: Our 4 tracking rooms and a 32 channel board provide us with the versatility to track in any production style.
 - service:
   name: Mixing
+<<<<<<< HEAD
   description: Tracking and mixing in the same facility is one way to make sure your project has a consistent quality and sound.
 - service:
   name: Music Composition &amp; Scoring
   description: From advertisement beds to film and singer/songwriter to hip hop, we create original music perfectly suited for your project.
+=======
+  description: Music, home recordings, video post production and just about anything else.
+- service:
+  name: Music Composition &amp; Scoring
+  description: We create original music perfectly suited for your project. From advertisement bed music to film scores to hip hop beats.
+>>>>>>> 281e4e2cea242fb4d405954cf00e6bf841e71e94
